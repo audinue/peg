@@ -13,9 +13,9 @@ import {
   sequence,
   string,
   text,
-} from "./primitives";
+} from "./primitives.js";
 
-import { ruleName } from "./util";
+import { ruleName } from "./util.js";
 
 const SingleQuotedString = sequence([
   string("'"),
