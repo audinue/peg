@@ -285,7 +285,7 @@ const Label = choice([
       return {
         label: result[0],
         toString() {
-          return result[4];
+          return result[4] + "";
         },
       };
     }
