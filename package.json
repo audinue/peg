@@ -1,6 +1,7 @@
 {
   "name": "@audinue/peg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "peg.js",
-  "type": "module"
+  "type": "module",
+  "types": "peg.d.ts"
 }
